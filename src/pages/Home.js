@@ -1,4 +1,3 @@
-import {Header} from '../components/Header';
 import relax from '../assets/images/relax-removebg.png'
 import { Link } from "react-router-dom";
 

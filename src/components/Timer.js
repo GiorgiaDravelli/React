@@ -15,7 +15,7 @@ export const Timer = () => {
     let interval;
     if(isRunning) {
       interval = setInterval(() => {
-        if (seconds < 10 && seconds != 0) {                     
+        if (seconds < 10 && seconds !== 0) {                     
           setSeconds((prevSeconds) => "0" + (prevSeconds - 1));
       } else if (seconds > 9){
           setSeconds((prevSeconds) => (prevSeconds - 1));
