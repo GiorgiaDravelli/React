@@ -1,0 +1,16 @@
+.sound-icons {
+    margin-top: 2.5rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background-color: rgb(114, 162, 114);
+  }
+  .sound-names {
+    display: inline-block;
+    margin-left: 0.3rem;
+  }
+  
+  .sound-items {
+    display: inline;  
+  }

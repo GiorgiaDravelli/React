@@ -2,7 +2,8 @@ import 'react-circular-progressbar/dist/styles.css';
 import { useEffect, useState } from "react";
 import {BsPlayCircle, BsStopCircle, BsPauseCircle} from 'react-icons/bs'
 import { CountdownCircleTimer } from 'react-countdown-circle-timer'
-import { AudioPlayer } from './AudioPlayer';
+import { AudioPlayer } from '../AudioPlayer/AudioPlayer';
+import './Timer.css';
 
 export const Timer = () => {
   const [minutes, setMinutes] = useState(0);
@@ -15,7 +16,7 @@ export const Timer = () => {
     let interval;
     if(isRunning) {
       interval = setInterval(() => {
-        if (seconds < 10 && seconds !== 0) {                     
+        if (seconds < 10 && seconds != 0) {                     
           setSeconds((prevSeconds) => "0" + (prevSeconds - 1));
       } else if (seconds > 9){
           setSeconds((prevSeconds) => (prevSeconds - 1));

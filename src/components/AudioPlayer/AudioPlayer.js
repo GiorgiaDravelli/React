@@ -1,6 +1,7 @@
 import { useState} from "react";
-import {sounds} from '../SoundData';
-import {Controls} from './Controls';
+import {sounds} from '../../SoundData';
+import {Controls} from '../Controls/Controls';
+import './AudioPlayer.css';
 
 export const AudioPlayer = () => {
 

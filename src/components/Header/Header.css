@@ -1,0 +1,21 @@
+.logo {
+    border-radius: 50%;
+    height: 80px;
+    width: 90px;
+  }
+
+  .logo:hover {
+    height: 100px;
+    width: 110px;
+    transition: all .6s;
+  }
+  
+  .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem !important;
+  }
+
+  .navbar-brand:hover {
+    font-size: 4rem !important;
+    transition: all .6s;
+  }

@@ -1,0 +1,42 @@
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.audio-buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.timer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-time {
+  font-size: 3rem;
+}
+
+.buttons-container {
+  margin-top: 2rem;
+}
+
+.pause-btn {
+margin-right: 2.5rem;
+}
+
+.time-select-container {
+  display: flex;
+  margin-top: 1.5em;
+}
+
+.time-btn {
+  margin-right: 2rem;
+  
+}

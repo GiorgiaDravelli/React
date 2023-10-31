@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/Home";
+import { Home } from "./pages/Home/Home.js";
 import { TimerPage } from "./pages/TimerPage";
-import {Header} from './components/Header';
-import { Footer } from './components/Footer';
+import {Header} from './components/Header/Header.js';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (

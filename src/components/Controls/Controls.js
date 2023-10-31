@@ -1,5 +1,6 @@
 import { BsVolumeDown, BsVolumeMute, BsVolumeUp  } from 'react-icons/bs';
 import { useState, useEffect, useRef } from 'react';
+import './Controls.css'
 
 
 export const Controls = ({audio, isPlaying}) => {
